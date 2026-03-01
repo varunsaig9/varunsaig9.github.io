@@ -449,3 +449,38 @@ a:focus, button:focus, .btn:focus{
   .links{ gap: 8px; }
   .links a{ padding: 7px 9px; }
 }
+/* =========================
+   Micro-interactions (FAANG)
+========================= */
+.card{
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.card:hover{
+  transform: translateY(-4px);
+}
+.btn:active{
+  transform: translateY(-1px) scale(.99);
+}
+.links a:active{
+  transform: translateY(0px) scale(.99);
+}
+
+/* Soft divider glow on hover for sections */
+.section{
+  position: relative;
+}
+.section::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:0;
+  transform: translateX(-50%);
+  width: min(1120px, calc(100% - 40px));
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(34,211,238,.18), transparent);
+  opacity: .0;
+  transition: opacity .25s ease;
+}
+.section:hover::before{
+  opacity: .9;
+}
