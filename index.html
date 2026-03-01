@@ -1,0 +1,247 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Varun Sai | Portfolio</title>
+  <meta name="description" content="Varun Sai — Lead NOC Engineer (CX) in Sydney. IT Support, troubleshooting, systems administration, and incident management." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Tiny animated gradient underline (FAANG-style polish) -->
+
+  <style>
+    .section-head h2{
+      position: relative;
+      display: inline-block;
+      padding-bottom: 6px;
+    }
+
+    .section-head h2::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:0;
+      height:2px;
+      width:100%;
+      background: linear-gradient(90deg,#a78bfa,#22d3ee,#60a5fa,#a78bfa);
+      background-size: 200% 100%;
+      border-radius: 2px;
+      animation: underlineFlow 6s linear infinite;
+      opacity:.9;
+    }
+
+    @keyframes underlineFlow{
+      0%{ background-position: 0% 50%; }
+      100%{ background-position: 200% 50%; }
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      .section-head h2::after{ animation:none; }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="dot"></span>
+        <span>Varun Sai</span>
+      </a>
+
+```
+  <nav class="links" aria-label="Primary navigation">
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#awards">Awards</a>
+    <a href="#references">References</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="pill">Contact</a>
+  </nav>
+</div>
+```
+
+  </header>
+
+  <!-- Hero -->
+
+  <main id="top" class="hero">
+    <div class="container hero-grid">
+      <section class="hero-copy">
+        <p class="eyebrow">Portfolio</p>
+
+```
+    <h1 class="headline">
+      Hi, I’m <span class="accent">Varun Sai</span>.<br />
+      I keep systems stable, users supported, and incidents under control.
+    </h1>
+
+    <p class="subhead">
+      Detail-oriented and proactive IT professional with 5 years of experience in IT Support,
+      technical troubleshooting, and systems administration. Committed to ensuring seamless
+      system operations and contributing to the overall success of IT infrastructure.
+      In my previous role, I drove data-backed hardware insights that influenced a ~A$200K
+      device refresh investment.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="#experience">View Experience</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+
+    <div class="meta">
+      <div class="chip">📍 Sydney, AU</div>
+      <div class="chip">🧯 Incident & change handling</div>
+      <div class="chip">🖥️ Systems & support</div>
+    </div>
+  </section>
+
+  <aside class="hero-card">
+    <div class="card">
+      <div class="card-top">
+        <img
+          src="https://github.com/varunsaig9.png?size=160"
+          alt="Varun Sai profile photo"
+          width="46"
+          height="46"
+          style="border-radius:16px;border:1px solid rgba(255,255,255,.10);object-fit:cover;"
+        />
+        <div>
+          <p class="card-name">Varun Sai</p>
+          <p class="card-role">Lead NOC Engineer • CX</p>
+        </div>
+      </div>
+
+      <div class="card-stats">
+        <div class="stat">
+          <p class="stat-k">Current</p>
+          <p class="stat-v">Lead NOC Engineer, CX (NICE)</p>
+        </div>
+        <div class="stat">
+          <p class="stat-k">Strength</p>
+          <p class="stat-v">Calm coordination + clear stakeholder comms</p>
+        </div>
+        <div class="stat">
+          <p class="stat-k">Impact</p>
+          <p class="stat-v">Influenced ~A$200K device refresh</p>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <a class="btn small ghost" href="https://www.linkedin.com/in/varunsg18/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn small primary" href="https://github.com/varunsaig9" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </aside>
+</div>
+```
+
+  </main>
+
+  <!-- References -->
+
+  <section id="references" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>LinkedIn References</h2>
+          <p>What colleagues, clients, and leaders consistently say.</p>
+
+```
+      <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px;">
+        <span style="display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);color:rgba(255,255,255,.80);font-size:13px;">
+          ✅ Trusted by clients & leaders
+        </span>
+
+        <span id="refCountBadge" style="display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);color:rgba(255,255,255,.75);font-size:13px;">
+          ★ <span id="refCount">0</span> LinkedIn recommendations
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="split">
+    <div class="card" style="padding:18px;">
+      <h3 style="margin-top:0;">Common themes</h3>
+      <ul class="bullets" style="margin-top:10px;">
+        <li>Highly responsive with fast issue resolution</li>
+        <li>Calm, approachable communicator</li>
+        <li>Reliable team player who goes above and beyond</li>
+        <li>Strong customer focus and professionalism</li>
+        <li>Consistent ownership and follow-through</li>
+        <li>Positive energy and culture contribution</li>
+      </ul>
+    </div>
+
+    <div class="card" style="padding:18px;">
+      <h3 style="margin-top:0;">Summary</h3>
+      <p style="color: rgba(255,255,255,.75); line-height:1.7; margin:0;">
+        Feedback consistently describes Varun as <strong>knowledgeable, reliable, and easy to work with</strong>.
+        Clients and senior stakeholders highlight quick resolution, clear communication, and a positive
+        professional approach under pressure.
+      </p>
+    </div>
+  </div>
+
+  <!-- Pull Quotes (FIRST NAME ONLY) -->
+  <div class="grid" style="grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top:14px;">
+    <article class="card" style="padding:18px;">
+      <p style="margin:0; font-size:16px; line-height:1.65; color: rgba(255,255,255,.85);">
+        “Varun was very knowledgeable in troubleshooting technical issues and resolved my issues quickly.”
+      </p>
+      <p style="margin:12px 0 0; color: rgba(255,255,255,.55); font-size:14px;">
+        — Jon, Technical Lead (Fiserv)
+      </p>
+    </article>
+
+    <article class="card" style="padding:18px;">
+      <p style="margin:0; font-size:16px; line-height:1.65; color: rgba(255,255,255,.85);">
+        “Varun stands out for tackling tough problems with focus and precision… an excellent communicator.”
+      </p>
+      <p style="margin:12px 0 0; color: rgba(255,255,255,.55); font-size:14px;">
+        — Nishit, Engineering Leadership
+      </p>
+    </article>
+
+    <article class="card" style="padding:18px;">
+      <p style="margin:0; font-size:16px; line-height:1.65; color: rgba(255,255,255,.85);">
+        “Professional, adaptable and supportive… quickly builds friendly rapport with staff.”
+      </p>
+      <p style="margin:12px 0 0; color: rgba(255,255,255,.55); font-size:14px;">
+        — Geoffrey, Senior Stakeholder (Fiserv)
+      </p>
+    </article>
+  </div>
+
+  <style>
+    @media (max-width: 980px){
+      #references .grid{ grid-template-columns: 1fr !important; }
+    }
+  </style>
+</div>
+
+<script>
+  const LINKEDIN_RECOMMENDATION_COUNT = 27;
+  const countEl = document.getElementById("refCount");
+  if (countEl) countEl.textContent = String(LINKEDIN_RECOMMENDATION_COUNT);
+
+  const badge = document.getElementById("refCountBadge");
+  if (badge && LINKEDIN_RECOMMENDATION_COUNT >= 15) {
+    badge.style.borderColor = "rgba(34,211,238,.35)";
+    badge.style.boxShadow = "0 10px 35px rgba(34,211,238,.10)";
+  }
+</script>
+```
+
+  </section>
+
+</body>
+</html>
